@@ -7,6 +7,7 @@
 body {
   background-color: rgb(0, 0, 33);
   color: white;
+  
 }
 
 nav {
@@ -14,6 +15,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 70px;
+  width: 100vw;
   background-color: rgb(9, 9, 72);
 }
 
@@ -27,17 +29,15 @@ nav ul li {
   margin: 0 23px;
 }
 
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   color: white;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   color: rgba(230, 230, 250, 0.654);
-  font-size: 1.0rem;
-  
+  font-size: 1rem;
 }
-
 
 .left {
   font-size: 1.5rem;
@@ -64,14 +64,13 @@ nav ul li a:hover{
 
 .purple {
   color: rgb(159, 91, 223);
-  
 }
 
-.gray{
+.gray {
   color: gray;
 }
 
-#element{
+#element {
   color: rgb(159, 91, 223);
 }
 
@@ -82,17 +81,17 @@ main hr {
   margin: 30px 80px;
 }
 
-.second-section{
+.second-section {
   max-width: 80vw;
   margin: auto;
   height: 80vh;
 }
 
-.second-section h1{
+.second-section h1 {
   font-size: 1.9rem;
 }
 
-.second-section .box{
+.second-section .box {
   background: white;
   width: 80vw;
   height: 2px;
@@ -100,30 +99,81 @@ main hr {
   display: flex;
 }
 
-.second-section .vertical{
+.second-section .vertical {
   background: white;
   height: 90px;
   width: 1px;
   margin: 0 100px;
 }
 
-.vertical img{
+.vertical img {
   width: 40px;
   position: relative;
   top: -45px;
   left: -5px;
 }
 
-.vertical .title{
+.vertical .title {
   position: relative;
   margin: 25px 0px 15px 5px;
-  width:150px;
+  width: 150px;
 }
 
-.vertical .vertical-decs{
+.vertical .vertical-decs {
   width: 120px;
-  font-size:0.8rem;
+  font-size: 0.8rem;
   color: gray;
- 
+}
+
+footer {
+  height: 200px;
+  background-color: rgb(20, 20, 39);
+  width: 100vw;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.footer-second li {
+  list-style: none;
+  font-size: 1rem;
+}
+
+.footer-second > div {
+  margin: -5px 0px 10px 0px;
+  font-size: 1.1rem;
+}
+
+.footer-third li {
+  list-style: none;
+  font-size: 1rem;
+}
+
+@media (max-width:1000px){
+  main .first-section{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+  }
+
+  main .left-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+  }
+}
+
+@media(max-width:1000px){
+  nav{
+    width:900px;
+  }
+
+
 }
 
