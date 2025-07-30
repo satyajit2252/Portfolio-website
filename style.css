@@ -46,7 +46,7 @@ nav ul li a:hover{
 .first-section {
   display: flex;
   justify-content: space-around;
-  margin: 80px 0;
+  margin: 65px 0;
   align-items: center;
 }
 
@@ -64,4 +64,66 @@ nav ul li a:hover{
 
 .purple {
   color: rgb(159, 91, 223);
+  
 }
+
+.gray{
+  color: gray;
+}
+
+#element{
+  color: rgb(159, 91, 223);
+}
+
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 30px 80px;
+}
+
+.second-section{
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+
+.second-section h1{
+  font-size: 1.9rem;
+}
+
+.second-section .box{
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.second-section .vertical{
+  background: white;
+  height: 90px;
+  width: 1px;
+  margin: 0 100px;
+}
+
+.vertical img{
+  width: 40px;
+  position: relative;
+  top: -45px;
+  left: -5px;
+}
+
+.vertical .title{
+  position: relative;
+  margin: 25px 0px 15px 5px;
+  width:150px;
+}
+
+.vertical .vertical-decs{
+  width: 120px;
+  font-size:0.8rem;
+  color: gray;
+ 
+}
+
